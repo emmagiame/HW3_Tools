@@ -1,4 +1,6 @@
-        <!--sends an alert when cake is ordered-->
+        // Author: Emma Giamello
+        // Version: 2/7/24
+        //sends an alert when cake is ordered
         function cakeOrdered(){
             var text = document.getElementById("moreInfo").value;
             if(text.includes("vegan") || text.includes("Vegan")){
