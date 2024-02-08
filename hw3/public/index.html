@@ -1,0 +1,114 @@
+<!-- 
+    Author: Emma Giamello 
+    Version: 1/30/24
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Emma Giamello">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <script 
+    src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"/>
+    </script>
+    <!--Title of page to be shown on tab-->
+    <title>Cheesecake Order Form</title>
+</head>
+<body>
+    <!--Header which has the title again-->
+    <h1>Cheesecake Order Form</h1>
+    <!--Image found online. Not the same picture as in the instructions-->
+    <img src="data:image/jpeg;base64,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" alt="">
+    <!--Informative info-->
+    <h2 id="message">Order a cheesecake here with this form!!!</h2>
+
+    <script src="javascripts/cheesecake.js"></script>
+
+
+    <!--Where all info is collected for the order-->
+    <form id="cakeOrder">
+        <!--Options for toppings-->
+        
+        <br>
+        <span><label for="toppings">Toppings:</label></span><br>
+   
+        <input type="radio" class="toppings" id="cb1" name="topping" value="Plain cheesecake">
+        <label class="toppings" for="cb1">Plain</label><br>
+
+        <input type="radio" class="toppings" id="cb2" name="topping" value="Cherry cheesecake">
+        <label class="toppings" for="cb2">Cherry</label><br>
+
+        <input type="radio" class="toppings" id="cb3" name="topping" value="Chocolate cheesecake">
+        <label class="toppings" for="cb3">Chocolate</label><br>   
+        <br> 
+        
+        
+
+        <!--Option for number of cheesecakes-->
+        <span2><label class="numOfCakes" for="select">Number of Cheesecakes:</label></span2><br>
+        <select class="numOfCakes" id="numOfCakesSelection">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+        </select><br>
+        <br>
+
+        <!--Text box for client to input additional info-->
+        <span3><label class="moreInfo" for="moreInfo">Notes:</label></span3><br>
+        <textarea class="moreInfo" name="moreInfoEntered" id="moreInfo" cols="30" rows="10" placeholder="Enter any special instructions here."></textarea><br>
+        <br>
+
+        <!--Order button-->
+        <button id="orderButton" onclick="cakeOrdered()">
+            Order
+        </button>
+
+    </form>
+    <br>
+
+    
+
+    <!--Extra info about how many cheesecakes were ordered-->
+    <table>
+        <!-- drop down menu havent figured out hover function-->
+        <div2 class ="dropDown">
+            <p4>Orders for </p4>
+            <!-- got help with drop down menu from w3schools-->
+            <div class="dropDown">
+                <button class="dropDownButton">Jan</button>
+                <div class="dropDownContent">
+                    <a href="#">Feb</a>
+                    <a href="#">Mar</a>
+                    <a href="#">Apr</a>
+                    <a href="#">May</a>
+                    <a href="#">Jun</a>
+                    <a href="#">Jul</a>
+                    <a href="#">Sep</a>
+                    <a href="#">Oct</a>
+                    <a href="#">Nov</a>
+                    <a href="#">Dec</a>
+                </div>
+            </div><br>
+            <br>
+            
+            <li>11 Cherry</li>
+            <li>17 Chocolate</li>
+            <li>31 Plain</li>
+        </div2>
+
+    </table>
+    <br>
+    <br>
+    
+    
+</body>
+</html>

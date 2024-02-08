@@ -1,0 +1,137 @@
+/* 
+    Author: Emma Giamello 
+    Version: 1/30/24
+*/
+
+/* Edits to everything in the body */
+body {
+    background-color: cadetblue;
+    text-align: center;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/020/785/640/original/blue-hand-drawing-solid-color-abstract-freeform-presentation-decoration-hand-painted-wave-swashes-minimal-shape-element-png.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Edits to the title*/
+h1 {
+    color: antiquewhite;
+    font-size: 5cap;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Edits to the image*/
+img {
+    width: 400px;
+    border-style:ridge;
+    border-color: beige;
+    border-width: 10px;
+}
+
+/* Edits to the informative line*/
+h2 {
+    color:bisque;
+    font-size: x-large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Edits to */
+form {
+    background-color: teal;
+    border-style: dotted;
+    border-color:antiquewhite;
+    color: blanchedalmond;
+    width: 400px;
+    height: 420px;
+    margin: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Edits for "Toppings:"*/
+span {
+    font-size: large;
+    text-decoration: underline;
+    color: rgb(251, 216, 163);
+}
+
+/* Edits for "Number of Cheesecakes:"*/
+span2{
+    font-size: large;
+    text-decoration: underline;
+    color: rgb(252, 212, 153);
+}
+
+/* Edits for "Notes:"*/
+span3{
+    font-size: large;
+    text-decoration: underline;
+    color: rgb(252, 212, 153);
+}
+
+/* Edits for the text at the bottom */
+div2{
+    color: rgb(221, 204, 182);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Edits to the number selector*/
+select {
+    background-color:cadetblue;
+    color:blanchedalmond ;
+}
+
+/* Edits to the textarea*/
+textarea {
+    background-color:cadetblue;
+    color:blanchedalmond;
+}
+textarea::placeholder {
+    color:blanchedalmond ;
+}
+
+button {
+    background-color: cadetblue;
+    color: blanchedalmond;
+}
+
+/*
+#monthSelection {
+    width: 50px;
+}
+*/
+
+
+/* got help from w3schools for everything below*/
+.dropDown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropDownContent{
+    display: none;
+    position: absolute;
+    background-color: teal;
+    min-width: 50px;
+    box-shadow: 0px 8px 16px 0px;
+    z-index: 1;
+    height: 100px;
+    overflow: auto;
+}
+
+.dropDownContent a{
+    color:antiquewhite;
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+.dropDownContent a:hover{
+    background-color:darkslategrey;
+}
+
+.dropDown:hover .dropDownContent{
+    display: block;
+}
+
+.dropDown:hover .dropDownButton{
+    background-color: teal;
+}
